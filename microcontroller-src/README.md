@@ -71,13 +71,26 @@
    - **Add the DRA818 Library to Arduino IDE:**
      - Open the Arduino IDE.
      - Go to `Sketch` > `Include Library` > `Add .ZIP Library...`.
-     - In the file dialog, navigate to the location where you downloaded the `arduino-dra818-1.0.1.zip` file.
+     - In the file dialog, navigate to the location where you downloaded the file.
+     - Select the ZIP file and click **Open**.
+     - A confirmation message should appear indicating that the library was added successfully.
+
+2. **Install arduino-audio-tools:**
+
+   **Download the arduino-audio-tools Library ZIP:**
+     - Visit the [arduino-audio-tools Releases Page](https://github.com/pschatzmann/arduino-audio-tools/releases).
+     - Click on the **"Source code (zip)"** link to download the ZIP file of the most recent release.
+
+   - **Add the arduino-audio-tools Library to Arduino IDE:**
+     - Open the Arduino IDE.
+     - Go to `Sketch` > `Include Library` > `Add .ZIP Library...`.
+     - In the file dialog, navigate to the location where you downloaded the file.
      - Select the ZIP file and click **Open**.
      - A confirmation message should appear indicating that the library was added successfully.
 
 3. **Confirm All Libraries Are Installed:**
    
-   - After completing the above steps, ensure that both **EspSoftwareSerial** and **DRA818** are listed under `Sketch` > `Include Library`.
+   - After completing the above steps, ensure that both **EspSoftwareSerial**, **arduino-audio-tools** and **DRA818** are listed under `Sketch` > `Include Library`.
    - If any libraries are missing, revisit the installation steps to ensure they were added correctly.
 
 ### Opening the Project (Arduino IDE)
